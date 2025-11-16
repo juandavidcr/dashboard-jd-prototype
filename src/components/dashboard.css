@@ -1,0 +1,15 @@
+.dashboard-root { }
+.dashboard-main { background: #f0f2f5; }
+.topbar { box-shadow: 0 1px 0 rgba(0,0,0,0.04); }
+.dashboard-content { padding: 16px; }
+.widgets-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 16px; }
+.widget { background: #fff; padding: 16px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+.widget-title { color: #666; font-size: 13px; }
+.widget-value { font-size: 20px; font-weight: 700; margin-top: 6px; }
+.chart-area { background: #fff; padding: 16px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+.chart-placeholder { min-height: 240px; }
+.chart-title { font-weight: 600; margin-bottom: 12px; }
+.chart-box { height: 200px; border-radius: 4px; background: linear-gradient(90deg,#f7f7f7,#eaeaea); display:flex; align-items:center; justify-content:center; color:#999; }
+
+/* Sidebar logo styling */
+.logo img { display: block; margin: 0 auto; }
